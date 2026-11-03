@@ -1,0 +1,41 @@
+# Sample ~/.terminatorrc — copy to ~/.terminatorrc and edit.
+#
+# Every key binding in Terminator can be changed here WITHOUT recompiling;
+# the file is read at every startup, so changes persist across restarts.
+# Two formats are accepted:
+#
+#   action=Modifier+Key          (e.g.  clear=Ctrl+L)
+#   bind Modifier+Key action     (e.g.  bind Ctrl+L clear-screen)
+#
+# Modifiers: Ctrl, Shift, Alt (combine with '+'). Keys are X11 keysym
+# names: a letter (T), or e.g. Tab, Up, Down, Left, Right, ISO_Left_Tab.
+#
+# An invalid combination or an unknown action is reported at startup and
+# ignored. A combination that conflicts with another action's binding is
+# reported and the default for that action is kept.
+#
+# Defaults (uncomment and change to override):
+# new_tab=Ctrl+T
+# close_tab=Ctrl+Shift+W
+# clear=Ctrl+L
+# history_search=Ctrl+R
+# line_start=Ctrl+A
+# line_end=Ctrl+E
+# delete_to_start=Ctrl+U
+# delete_to_end=Ctrl+K
+# delete_word=Ctrl+W
+# copy=Ctrl+Shift+C
+# paste=Ctrl+Shift+V
+# interrupt=Ctrl+C
+# suspend=Ctrl+Z
+# eof=Ctrl+D
+# history_prev=Up
+# history_next=Down
+# cursor_left=Left
+# cursor_right=Right
+# tab_next=Ctrl+Tab
+# tab_prev=Ctrl+Shift+ISO_Left_Tab
+
+# Example overrides:
+# bind Ctrl+Shift+L clear-screen
+# clear=Ctrl+Shift+L

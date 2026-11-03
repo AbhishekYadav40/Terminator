@@ -1,0 +1,4 @@
+/terminator
+src/*.o
+*.out
+tests/gui/*-bin
